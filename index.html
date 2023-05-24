@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FINAL PROJECT MAFUT AFANDI</title>
+  <style>
+    .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+nav {
+    background-color: white;
+    opacity: 40%;
+    width: 100%;
+
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav ul li {
+    list-style: none;
+    margin: 20px 12px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 6px;
+  }
+
+  nav ul li a:hover {
+    background-color: aliceblue;
+    opacity: 50%;
+  }
+  #header {
+    top:0;
+    position:fixed;
+    height: 10vh;
+    width: 100%;
+    z-index: 1;
+  }
+  #footer {
+    opacity: 50%;
+    background: #dfd7c8;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    text-align: center;
+  }
+  #menu1, #menu2, #menu3, #menu4, #menu5, #menu6 {
+    
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding-top: 6%;
+    padding-left: 1%;
+     }
+
+  #menu1 {
+
+
+    background-color:aquamarine:transparent;
+    
+  
+   
+  
+  }
+  #menu2 {
+    background-color: azure;
+    background-color: transparent;
+ 
+  
+  }
+  #menu6 {
+    background-color: azure;
+    background-color: transparent;
+
+   
+  }
+  #menu3 {
+    background-color: azure;
+    background-color: transparent;
+  
+  }
+  #menu4 {
+    background-color: azure;
+    background-color: transparent;
+  
+  }
+  #menu5 {
+    background-color: azure;
+    background-color: transparent;
+
+  }
+body {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}
+.poto {
+  float: left;
+  width: 25%;
+  height: 50%;
+}
+.profile {
+  float: left;
+  width: 75%;
+  height: 50%;
+}
+.tentang {
+  width: 100%;
+  text-align: left;
+}
+.judul{
+  width: 100%;
+  text-align: center;
+}
+  </style>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="wrapper">
+         <div id="header">
+            <nav>
+              <ul>
+                <li><a href="#menu1">About</a></li>
+                <li><a href="#menu2">Experiences</a></li>
+                <li><a href="#menu3">Education</a></li>
+                <li><a href="#menu4">Skills</a></li>
+                <li><a href="#menu5">Interests</a></li>
+                <li><a href="#menu6">Awards</a></li>
+              </ul>
+            </nav>
+          </div>
+     
+        <div id="menu1">
+          <div class="judul"><h2>Biografi</h2></div>
+           <div class="poto">
+            <img src="images/foto.jpg" alt="Gambar Profil Utama" width="60%" height="90%"/>
+           </div>
+           <div class="profile"> 
+               <table>
+              
+              <tr>
+                  <td>Nama</td>
+                  <td>: MAFUT AFANDI</td>
+              </tr>
+              <tr>
+                  <td>Usia</td>
+                  <td>: 30</td>
+              </tr>
+              <tr>
+                  <td>Alamat</td>
+                  <td>: PONOROGO, Indonesia</td>
+              </tr>
+              <tr>
+                  <td>Pekerjaan</td>
+                  <td>: Calon Developer</td>
+              </tr>
+              <tr>
+                  <td>Email</td>
+                  <td>: mafutnida91@gmail.com</td>
+              </tr>
+              <tr>
+                <td>Contact</td>
+                <td>: 085655707300</td>
+            </tr>
+            <tr>
+              <td>Kode Peserta</td>
+              <td>: INPG-PKJ05-006</td>
+          </tr>
+            </h1>
+          </table>
+            </div>
+            <div class="tentang"><h2> Saya Adalah Salah satu peserta pelatihan kartu prakerja, saya memilih pelatihan Belajar Langkah Fundamental Untuk Menjadi Web Programmer karena saya ingin menambah skill saya dibidang pemrograman</h2>
+              <h2> Saya Adalah Salah satu peserta pelatihan kartu prakerja, saya memilih pelatihan Belajar Langkah Fundamental Untuk Menjadi Web Programmer karena saya ingin menambah skill saya dibidang pemrograman</h2></div>
+            
+        </div>
+        <div id="menu2">
+          <h2>Experiences</h2>
+      <ul>
+        <li>Penjaga Warnet </li>
+        <li>Guru Honorer</li>
+        <li>Tukang Shooting</li>
+        <li>Tukang Servis</li>
+    </ul>
+          
+      </div>
+      <div id="menu3">
+        <h2>EducationS</h2>
+    <ol>
+      <li>SDN 1 SIDOREJO</li>
+      <li>MTSN 1 SAMPUNG</li>
+      <li>SMKN 1 JENANGAN PONOROGO</li>
+      <li>S1 UNMUH PONOROGO</li>
+    </ol>
+        
+    </div>
+    <div id="menu4">
+      <h2>Special skillS</h2>
+      <ul>
+          <li>Editing Photo & Video </li>
+          <li>LiveStreaming Video</li>
+          <li>cinematic video</li>
+          <li>leyeh-leyeh</li>
+      </ul>
+      
+  </div>
+  <div id="menu5">
+    <h2>Interests</h2>
+      <ul>
+          <li>Pemrograman Web </li>
+          <li>Network Enginering</li>
+          <li>content Creator</li>
+          <li>Digital Marketing</li>
+      </ul>
+    
+</div>
+<div id="menu6">
+  <h2>Awards</h2>
+  <ol>
+    <li>JUARA 1 ADZAN TINGKAT MUSHOLA RT</li>
+    <li>JUARA 3 MAKAN KERUPUK TINGKAT DESA</li>
+    <li>JUARA HARAPAN 2 TARIK TAMBANG TINGKAT RW</li>
+    <li>JUARA HARAPAN 4 LOMPAT KARUNG TINGKAT RT</li>
+  </ol>
+  
+</div>
+    
+        <div id="footer">
+            Copyright &copy; 2023. Mafut Afandi. <br/>
+            All Rights Reserved.         
+     </div>
+  </div>
+</body>
+<!-- partial -->
+  
+</body>
+</html>
